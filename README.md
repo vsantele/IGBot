@@ -19,6 +19,8 @@ An non-exhaustive list of features is available on [GitHub](https://github.com/S
 | @igbot/api      | TypeScript | DiscordJS, ExpressJS |
 | @igbot/cluster  | TypeScript | DiscordJS            |
 | @igbot/core     | TypeScript | DiscordJS            |
+| @igbot/domain   | TypeScript | DiscordJS            |
+| @igbot/database | TypeScript | Prisma               |
 
 ### @igbot/website
 
@@ -42,4 +44,11 @@ The cluster process represents the bot for Discord. It handles events from Disco
 ### @igbot/core
 
 The core part contains all the logic that is shareable between all the other layers.
-It also handles the database communication.
+
+### @igbot/database
+
+The database part contains the logic for the database communication.
+
+### @igbot/domain
+
+The domain part contains the technical representations (mostly types) of the domain.
